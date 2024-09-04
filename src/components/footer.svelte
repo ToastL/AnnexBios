@@ -1,7 +1,11 @@
-<footer class="w-full h-[430px] bg-[#666666]">
-   <div class="flex justify-between items-center border border-white w-9/12 h-[430px] pl-28 pr-64">
+<script>
+    import name from "../assets/name.png"
+</script>
+
+<footer class="flex justify-between h-[430px] bg-primary pl-[5rem]">
+   <div class="flex items-center border border-white gap-10 h-[430px]">
         <div class="border border-white h-64">
-            <div class="background-image: url('name.png')"></div>
+            <img src={name} alt="">
         </div>
         <div class="border border-white h-[225px]">ya yeet</div>
         <div class="border border-white h-64">ya yeet</div>
