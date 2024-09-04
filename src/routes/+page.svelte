@@ -1,3 +1,5 @@
-<div class="h-screen">
-
-</div>
+<main class="pt-[14rem]">
+    <section class="min-h-screen">
+        
+    </section>
+</main>

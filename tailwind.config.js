@@ -9,7 +9,11 @@ export default {
       black: 'black',
       primary: '#666'
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-bg': "url("
+      }
+    },
   },
   plugins: [],
 }
