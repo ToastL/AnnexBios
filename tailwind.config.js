@@ -10,9 +10,6 @@ export default {
       primary: '#666'
     },
     extend: {
-      backgroundImage: {
-        'home-bg': "url("
-      }
     },
   },
   plugins: [],
