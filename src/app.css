@@ -4,11 +4,12 @@
 
 @layer base {
     @font-face {
-        font-family: 'Lato Bold';
-        src: url(assets/font/Lato-Bold.ttf) format('TTF/OTF');
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
     }
 
     html {
-        font-family: "Lato Bold";
+        font-family: "Lato";
     }
 }

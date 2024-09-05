@@ -13,22 +13,18 @@
                     eum illo optio! Adipisci vitae quos exercitationem sit?
                     Tenetur velit, quaerat sunt hic officia incidunt.
                 </div>
-                <div
-                    class="w-[8rem] h-8 bg-white items-center flex justify-center text-primary font-medium mt-5 hover:cursor-pointer"
-                >
-                    LEES MEER
-                </div>
+                <div class="w-[8rem] h-8 bg-white items-center flex justify-center text-primary  mt-5 hover:cursor-pointer font-bold">LEES MEER</div>
             </div>
         </div>
         <div class="h-[225px] mt-14 ml-5">
-            <div class="text-white text-3xl font-medium">NAVIGEER</div>
+            <div class="text-white text-3xl font-bold">NAVIGEER</div>
             <div class="text-white mt-4 text-xl">Werken bij</div>
             <div class="text-white text-xl">Veelgestelde vragen</div>
             <div class="text-white text-xl">Vestigingen</div>
             <div class="text-white text-xl">Contact</div>
         </div>
         <div class=" h-64 mt-[5.4rem] ml-5">
-            <div class="text-white text-3xl font-medium">VOLG ONS</div>
+            <div class="text-white text-3xl font-bold">VOLG ONS</div>
             <div class="flex justify-between items-center mt-4">
                 <img
                     class="w-10 rounded-full"
