@@ -7,7 +7,8 @@ export default {
       current: 'currentColor',
       white: 'white',
       black: 'black',
-      primary: '#666'
+      primary: '#666',
+      secondary: '#C9C9C9'
     },
     extend: {
     },
