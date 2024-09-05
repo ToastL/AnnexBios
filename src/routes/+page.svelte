@@ -2,7 +2,7 @@
     import header from "../assets/header_afbeelding.jpg"
 </script>
 
-<main class="pt-[14rem]">
+<main class="pt-[10rem]">
     <section class="py-[4rem] px-[10rem] bg-cover bg-center backdrop-opacity-50" style="background-image: url({header});">
         <div class="p-10 w-full bg-black text-white mb-20">
             <h1 class="mb-6 uppercase font-semibold text-6xl">welkom bij annexbios</h1>
