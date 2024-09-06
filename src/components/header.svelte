@@ -11,9 +11,9 @@
       class="flex items-center space-x-7 text-xl font-semibold"
       style="color: grey;"
     >
-      <a href="vestegingen.svelte">VESTEGINGEN</a>
-      <a href="aanbevolenfilms.svelte">AANBEVOLEN FILMS</a>
-      <a href="contact.svelte">CONCTACT</a>
+      <a href="">VESTEGINGEN</a>
+      <a href="">AANBEVOLEN FILMS</a>
+      <a href="">CONCTACT</a>
     </div>
   </div>
 
