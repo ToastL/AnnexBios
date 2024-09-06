@@ -10,7 +10,7 @@
             <a class="uppercase font-semibold bg-white text-black p-3" href="">bekijk onze vestigingen</a>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 w-full gap-10">
-            <div class="h-[18rem] w-full bg-black"></div>
+            <div class="h-[18grem] w-full bg-black"></div>
             <div class="h-[18rem] w-full bg-black"></div>
             <div class="h-[18rem] w-full bg-black"></div>
             <div class="h-[18rem] w-full bg-black"></div>
