@@ -2,6 +2,7 @@
   "compilerOptions": {
     // Enable latest features
     "target": "ESNext",
+    "module": "ESNext",
     "allowJs": true,
 
     // Bundler mode

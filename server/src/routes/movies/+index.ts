@@ -5,8 +5,6 @@ import dummyData from "./dummyData";
 
 export const request: Request = Request.GET
 
-export const route = 'movies'
-
 export const callback: RequestHandler = (req, res) => {
     res.send(dummyData)
 }
