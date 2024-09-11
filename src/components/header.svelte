@@ -15,7 +15,7 @@
         <a href="">AANBEVOLEN FILMS</a>
       </div>
       <div class="flex items-center space-x-7 text-xl font-semibold bg-white text-primary hover-effect hover:text-black">
-        <a href="\src\routes\contact.svelte">CONTACT</a>
+        <a href="git">CONTACT</a>
       </div>
     </div>
   
