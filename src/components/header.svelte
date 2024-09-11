@@ -5,17 +5,26 @@
 <header class="fixed w-full z-10">
   <div class="flex justify-between w-full h-[6rem] bg-white px-[7rem]">
     <div class="flex items-center h-full">
-      <img alt="logo" src={logo} class="w-[12rem] h-auto" />
+     <a href="annexbios.gluwebsite.nl"> <img alt="logo" src={logo} class="w-[12rem] h-auto" /></a>
     </div>
-    <div
-      class="flex items-center space-x-7 text-xl font-semibold"
-      style="color: grey;"
-    >
-      <a href="">VESTEGINGEN</a>
-      <a href="">AANBEVOLEN FILMS</a>
-      <a href="">CONCTACT</a>
+    <div class="flex items-center gap-8">
+      <div class="flex items-center space-x-7 text-xl font-semibold bg-white text-primary hover-effect hover:text-black">
+        <a href="">VESTEGINGEN</a>
+      </div>
+      <div class="flex items-center space-x-7 text-xl font-semibold bg-white text-primary hover-effect hover:text-black">
+        <a href="">AANBEVOLEN FILMS</a>
+      </div>
+      <div class="flex items-center space-x-7 text-xl font-semibold bg-white text-primary hover-effect hover:text-black">
+        <a href="\src\routes\contact.svelte">CONTACT</a>
+      </div>
     </div>
+  
+  
   </div>
+
+  
+    
+  
 
   <div
     class="flex w-full bg-primary px-[6rem] font-semibold text-l h-[4rem] gap-8"
@@ -50,37 +59,37 @@
             class="absolute right-0 mt-1 bg-primary hidden shadow-md text-sm"
           >
             <a
-              href="#"
+              href="annexbiosleerdam.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >LEERDAM</a
             >
             <a
-              href="#"
+              href="annexbiosmaarsen.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >MAARSEN</a
             >
             <a
-              href="#"
+              href="annexbiosbreukelen.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >BREUKELEN</a
             >
             <a
-              href="#"
+              href="annexbiosbilthoven.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >BILTHOVEN</a
             >
             <a
-              href="#"
+              href="annexbiosmontfoort.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >MONTFOORT</a
             >
             <a
-              href="#"
+              href="annexbioswoerden.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >WOERDEN</a
             >
             <a
-              href="#"
+              href="annexbiosleidscherijn.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >LEIDSCHERIJN</a
             >
@@ -91,6 +100,7 @@
             BEKIJK TICKETS
           </div></button
         >
+       
         <script>
           document
             .getElementById("dropdownButton")
