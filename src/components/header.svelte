@@ -1,27 +1,39 @@
 <script>
   import logo from "../assets/logo_hoofd.png";
+
+  let barOut = false
 </script>
 
-<header class="fixed w-full z-10">
-  <div class="flex justify-between w-full h-[6rem] bg-white px-[7rem]">
+{#if barOut}
+  <div class="w-full h-full bg-primary z-50 fixed">
+    <div class="text-[4rem] text-white right-40 flex justify-end pr-[2rem] pt-[2rem] cursor-pointer" on:click={() =>  barOut = !barOut}><i class="fa-solid fa-x"></i></div>
+    <div class="flex justify-center items center text-white text-5xl mt-[15rem] cursor-pointer"on:click={() =>  barOut = !barOut}>Vestegingen</div>
+    <div class="flex justify-center items center text-white text-5xl mt-[5rem] cursor-pointer"on:click={() =>  barOut = !barOut}>Aanbevolen Films</div>
+    <div class="flex justify-center items center text-white text-5xl mt-[5rem] cursor-pointer"on:click={() =>  barOut = !barOut}>Contact</div>
+  </div>
+{/if}
+
+
+  <header class="fixed w-full z-10">
+  <div class="flex justify-between w-full h-[6rem] bg-white px-[7rem] max-[960px]:pr-[3rem] max-[960px]:pl-[3rem] max-[530px]:pl-[1rem]">
     <div class="flex items-center h-full">
-      <img alt="logo" src={logo} class="w-[12rem] h-auto" />
+      <img alt="logo" src={logo} class="w-[12rem] h-auto max-[362px]:w-[10rem]" />
     </div>
     <div
-      class="flex items-center space-x-7 text-xl font-semibold"
-      style="color: grey;"
+      class="flex items-center space-x-7 text-xl font-semibold text-primary max-[960px]:hidden"
     >
-      <a href="">VESTEGINGEN</a>
-      <a href="">AANBEVOLEN FILMS</a>
-      <a href="">CONCTACT</a>
+      <a href="#locations">VESTEGINGEN</a>
+      <a href="#movies">AANBEVOLEN FILMS</a>
+      <a href="#contact">CONCTACT</a>
     </div>
+      <button class="min-[961px]:hidden text-4xl" on:click={() =>  barOut = !barOut}><i class="fa-solid fa-bars"></i></button>
   </div>
 
   <div
-    class="flex w-full bg-primary px-[6rem] font-semibold text-l h-[4rem] gap-8"
+    class="flex w-full bg-primary px-[6rem] font-semibold text-l h-[4rem] gap-8 max-[960px]:justify-center max-[960px]:items-center"
   >
     <div class="flex h-full items-center">
-      <h1 class="text-white">KOOP HIER JE TICKETS</h1>
+      <h1 class="text-white max-[612px]:w-[6rem] max-[452px]:hidden">KOOP HIER JE TICKETS</h1>
     </div>
     <div class="flex items-center h-full font-semibold">
       <div class="bg-gray-100 flex items-center justify-center gap-8">
@@ -30,7 +42,7 @@
             id="dropdownButton"
             class="flex items-center gap-2 px-3 py-1 bg-secondary text-white"
           >
-            <span class=" text-sm">KIES JE VESTEGING</span>
+            <span class="text-sm">KIES JE VESTEGING</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-4 h-4"
@@ -87,7 +99,7 @@
           </div>
         </div>
         <button>
-          <div class="w-[9rem] h-[1.5rem] bg-white text-primary text-center">
+          <div class="w-[9rem] h-[1.5rem] bg-white text-primary text-center max-[452px]:hidden">
             BEKIJK TICKETS
           </div></button
         >

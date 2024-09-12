@@ -1,0 +1,7 @@
+<div class="fixed h-screen w-[20rem] bg-primary max-[820px]:w-[15rem] max-[637px]:w-[10rem] max-[537px]:w-[6rem]">
+    <img class="border-b border-white" src="/src/assets/name.png" alt="">
+    <a href="/admin/movies" class="flex justify-center items-center pt-11 text-white text-3xl uppercase hover:font-bold cursor-pointer gap-5 w-[17rem] max-[820px]:w-[13rem] max-[707px]:text-2xl max-[707px]:w-[11rem] max-[637px]:w-[10rem] max-[537px]:w-[5.7rem]"><i class="fa-solid fa-film"></i><div class="max-[537px]:hidden">movies</div></a>
+    <a href="/admin/actors" class="flex justify-center items-center pt-11 text-white text-3xl uppercase hover:font-bold cursor-pointer gap-5 w-[17rem] max-[820px]:w-[13rem] max-[707px]:text-2xl max-[707px]:w-[11rem] max-[637px]:w-[10rem] max-[537px]:w-[5.7rem]"><i class="fa-solid fa-user"></i><div class="max-[537px]:hidden">actors</div></a>
+    <a href="/" class="flex justify-center items-center pt-11 text-white text-3xl uppercase hover:font-bold cursor-pointer gap-5 w-[17rem] max-[820px]:w-[13rem] max-[707px]:text-2xl max-[707px]:w-[11rem] max-[637px]:w-[10rem] max-[537px]:w-[5.7rem]"><i class="fa-solid fa-arrow-left"></i><div class="max-[537px]:hidden">go back</div></a>
+    <div class="mt-9 border-b border-white"></div>
+</div> 

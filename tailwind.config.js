@@ -13,7 +13,9 @@ export default {
       crimson: '#91302e',
       tree: '#8d9c5a',
       violet: '#69507a',
-      baby: '#5a94b6'
+      baby: '#5a94b6',
+      lightg: '#D3D3D3',
+      green: '#265828'
 
     },
     extend: {
