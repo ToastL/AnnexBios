@@ -36,7 +36,5 @@ CREATE TABLE `movies`(
     `banner_path` VARCHAR(255) NOT NULL,
     `price` BIGINT NOT NULL
 );
-ALTER TABLE
-    `actors` ADD CONSTRAINT `actors_movies_id_foreign` FOREIGN KEY(`movies_id`) REFERENCES `movies`(`id`);
-ALTER TABLE
-    `tickets` ADD CONSTRAINT `tickets_user_id_foreign` FOREIGN KEY(`user_id`) REFERENCES `users`(`id`);
+ALTER TABLE `actors` ADD CONSTRAINT `actors_movies_id_foreign` FOREIGN KEY(`movies_id`) REFERENCES `movies`(`id`);
+ALTER TABLE `tickets` ADD CONSTRAINT `tickets_user_id_foreign` FOREIGN KEY(`user_id`) REFERENCES `users`(`id`);

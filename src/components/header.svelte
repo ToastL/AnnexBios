@@ -29,6 +29,10 @@
       <button class="min-[961px]:hidden text-4xl" on:click={() =>  barOut = !barOut}><i class="fa-solid fa-bars"></i></button>
   </div>
 
+  
+    
+  
+
   <div
     class="flex w-full bg-primary px-[6rem] font-semibold text-l h-[4rem] gap-8 max-[960px]:justify-center max-[960px]:items-center"
   >
@@ -62,37 +66,37 @@
             class="absolute right-0 mt-1 bg-primary hidden shadow-md text-sm"
           >
             <a
-              href="#"
+              href="annexbiosleerdam.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >LEERDAM</a
             >
             <a
-              href="#"
+              href="annexbiosmaarsen.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >MAARSEN</a
             >
             <a
-              href="#"
+              href="annexbiosbreukelen.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >BREUKELEN</a
             >
             <a
-              href="#"
+              href="annexbiosbilthoven.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >BILTHOVEN</a
             >
             <a
-              href="#"
+              href="annexbiosmontfoort.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >MONTFOORT</a
             >
             <a
-              href="#"
+              href="annexbioswoerden.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >WOERDEN</a
             >
             <a
-              href="#"
+              href="annexbiosleidscherijn.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >LEIDSCHERIJN</a
             >
@@ -103,6 +107,7 @@
             BEKIJK TICKETS
           </div></button
         >
+       
         <script>
           document
             .getElementById("dropdownButton")
