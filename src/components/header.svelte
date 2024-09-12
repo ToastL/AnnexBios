@@ -22,9 +22,9 @@
     <div
       class="flex items-center space-x-7 text-xl font-semibold text-primary max-[960px]:hidden"
     >
-      <a href="#locations">VESTEGINGEN</a>
-      <a href="#movies">AANBEVOLEN FILMS</a>
-      <a href="#contact">CONCTACT</a>
+      <a href="/#locations">VESTEGINGEN</a>
+      <a href="/#movies">AANBEVOLEN FILMS</a>
+      <a href="/contact">CONCTACT</a>
     </div>
       <button class="min-[961px]:hidden text-4xl" on:click={() =>  barOut = !barOut}><i class="fa-solid fa-bars"></i></button>
   </div>

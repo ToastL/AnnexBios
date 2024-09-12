@@ -1,5 +1,5 @@
-<div class="h-screen flex items-center justify-center bg-gray-100 pt-60 gap-[10rem]">
-    <div class="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
+<div class="min-h-screen flex justify-center bg-gray-100 pt-60 gap-[10rem] py-10 bg-white">
+    <div class="w-full max-w-md bg-white p-8 rounded-lg border border-black shadow-xl">
         <div class="bg-gray-200 p-6 rounded-lg">
             <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">
                 Contacteer ons
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <div class="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
+    <div class="w-full max-w-md bg-white p-8 rounded-lg border border-black shadow-xl">
         <div class="bg-gray-200 p-6 rounded-lg">
             <h2 class="text-2xl font-bold text-center gap-2 text-gray-800 mb-6">
                 Info
