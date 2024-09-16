@@ -1,5 +1,9 @@
-<div class="min-h-screen flex justify-center bg-gray-100 pt-60 gap-[10rem] py-10 bg-white">
-    <div class="w-full max-w-md bg-white p-8 rounded-lg border border-black shadow-xl">
+<div
+    class="min-h-screen flex justify-center bg-gray-100 pt-60 gap-[10rem] py-10 bg-white"
+>
+    <div
+        class="w-full max-w-md bg-white p-8 rounded-lg border border-black shadow-xl"
+    >
         <div class="bg-gray-200 p-6 rounded-lg">
             <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">
                 Contacteer ons
@@ -53,7 +57,9 @@
         </div>
     </div>
 
-    <div class="w-full max-w-md bg-white p-8 rounded-lg border border-black shadow-xl">
+    <div
+        class="w-full max-w-md bg-white p-8 rounded-lg border border-black shadow-xl"
+    >
         <div class="bg-gray-200 p-6 rounded-lg">
             <h2 class="text-2xl font-bold text-center gap-2 text-gray-800 mb-6">
                 Info
@@ -63,14 +69,14 @@
             </li>
             <li class="text-xl text-center text-gray-800 mb-6">
                 Hoofdkantoor AnnexBios Koningin Wilhelminalaan 9 3527 LA Utrecht
-                
             </li>
             <div class="flex justify-center mb-6">
                 <iframe
+                    title=""
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4904.301126382029!2d5.103226076164051!3d52.076988968934806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6658b394155cd%3A0x989811b0dc83d2b8!2sKon.%20Wilhelminalaan%207%2C%203527%20LA%20Utrecht!5e0!3m2!1snl!2snl!4v1726132713181!5m2!1snl!2snl"
                     class="w-[500rem] h-[20rem]"
                     style="border:0;"
-                    allowfullscreen=""
+                    allowfullscreen="true"
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
