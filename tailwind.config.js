@@ -15,7 +15,8 @@ export default {
       violet: '#69507a',
       baby: '#5a94b6',
       lightg: '#D3D3D3',
-      green: '#265828'
+      green: '#265828',
+      red: '#ff0000'
 
     },
     extend: {
