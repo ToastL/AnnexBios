@@ -32,14 +32,14 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 w-full gap-9">
             <div class="h-[23.8rem] w-full bg-white">
                 <img
-                    class="max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
-                    src="/src/assets/place.png"
+                    class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
+                    src="/src/assets/vesteg/bilthoven.png"
                     alt=""
                 />
                 <div
                     class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl"
                 >
-                    HELLEVOETSLUIS
+                    Bilthoven
                 </div>
                 <div
                     class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm"
@@ -54,14 +54,14 @@
             </div>
             <div class="h-[23.8rem] w-full bg-white">
                 <img
-                    class="max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
-                    src="/src/assets/place.png"
+                    class=" w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
+                    src="/src/assets/vesteg/breukelen.png"
                     alt=""
                 />
                 <div
                     class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl"
                 >
-                    HELLEVOETSLUIS
+                    Breukelen
                 </div>
                 <div
                     class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm"
@@ -76,14 +76,14 @@
             </div>
             <div class="h-[23.8rem] w-full bg-white">
                 <img
-                    class="max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
-                    src="/src/assets/place.png"
+                    class=" w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
+                    src="/src/assets/vesteg/leerdam.png"
                     alt=""
                 />
                 <div
                     class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl"
                 >
-                    HELLEVOETSLUIS
+                    Leerdam
                 </div>
                 <div
                     class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm"
@@ -98,14 +98,14 @@
             </div>
             <div class="h-[23.8rem] w-full bg-white">
                 <img
-                    class="max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
-                    src="/src/assets/place.png"
+                    class=" w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
+                    src="/src/assets/vesteg/maarssen.png"
                     alt=""
                 />
                 <div
                     class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl"
                 >
-                    HELLEVOETSLUIS
+                    Maarssen
                 </div>
                 <div
                     class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm"
@@ -120,14 +120,14 @@
             </div>
             <div class="h-[23.8rem] w-full bg-white">
                 <img
-                    class="max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
-                    src="/src/assets/place.png"
+                    class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[1123px]:w-full max-[650px]:h-[10rem]"
+                    src="/src/assets/vesteg/montfoort.png"
                     alt=""
                 />
                 <div
                     class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl"
                 >
-                    HELLEVOETSLUIS
+                    Montfoort
                 </div>
                 <div
                     class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm"
@@ -172,7 +172,7 @@
         >
             {#each data.movieData as movie}
                 <div class="h-[42.5rem] w-[16rem] bg-white">
-                    <img src={movie.banner_path} alt="starwars" />
+                    <img class="w-full h-[22rem] object-cover" src={movie.banner_path} alt="starwars" />
                     <div class="text-2xl text-primary pl-3 pt-4 font-bold">
                         {movie.title}
                     </div>

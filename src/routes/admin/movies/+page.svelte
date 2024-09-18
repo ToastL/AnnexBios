@@ -88,7 +88,7 @@
             <div id="imageInput" class="ml-[5rem] text-xl text-red">*Please add a banner</div>
         {/if}
         <label for="infoInput" class="uppercase text-[2.2rem] pl-[5rem] pt-[1rem] max-[707px]:text-[1.8rem] max-[462px]:text-[1.2rem]">Description</label>
-        <textarea id="infoInput" class={"w-[24rem] h-[7rem] bg-lightg rounded-lg  ml-[5rem] p-2 max-[707px]:w-[20rem] max-[462px]:w-[15rem] " + (validateInfoWrong ? "border border-red" : "")} placeholder="Info here"></textarea>
+        <textarea id="infoInput" class={"w-[24rem] h-[7rem] bg-lightg rounded-lg  ml-[5rem] p-2 max-[707px]:w-[20rem] max-[462px]:w-[15rem] resize-none " + (validateInfoWrong ? "border border-red" : "")} placeholder="Info here"></textarea>
         {#if validateInfoWrong}
             <div id="infoInput" class="ml-[5rem] text-xl text-red">*Please add a description</div>
         {/if}
