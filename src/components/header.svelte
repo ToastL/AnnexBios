@@ -14,11 +14,14 @@
 {/if}
 
 
-  <header class="fixed w-full z-10">
-  <div class="flex justify-between w-full h-[6rem] bg-white px-[7rem] max-[960px]:pr-[3rem] max-[960px]:pl-[3rem] max-[530px]:pl-[1rem]">
+<header class="fixed w-full z-10">
+  <div class="flex justify-between w-full h-[6rem] bg-white px-[7rem]">
     <div class="flex items-center h-full">
-      <img alt="logo" src={logo} class="w-[12rem] h-auto max-[362px]:w-[10rem]" />
+      <a href="/">
+        <img alt="logo" src={logo} class="w-[12rem] h-auto" />
+      </a>
     </div>
+    
     <div
       class="flex items-center space-x-7 text-xl font-semibold text-primary max-[960px]:hidden"
     >
@@ -66,40 +69,31 @@
             class="absolute right-0 mt-1 bg-primary hidden shadow-md text-sm"
           >
             <a
-              href="annexbiosleerdam.gluwebsite.nl"
+              href="https://annexbiosleischerijn.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
-              >LEERDAM</a
+              >LEIDSCHERIJN</a
             >
             <a
-              href="annexbiosmaarsen.gluwebsite.nl"
+              href="https://annexbiosmaarsen.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >MAARSEN</a
             >
             <a
-              href="annexbiosbreukelen.gluwebsite.nl"
-              class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
-              >BREUKELEN</a
-            >
-            <a
-              href="annexbiosbilthoven.gluwebsite.nl"
-              class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
-              >BILTHOVEN</a
-            >
-            <a
-              href="annexbiosmontfoort.gluwebsite.nl"
-              class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
-              >MONTFOORT</a
-            >
-            <a
-              href="annexbioswoerden.gluwebsite.nl"
+              href="https://annexbioswoerden2.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
               >WOERDEN</a
             >
             <a
-              href="annexbiosleidscherijn.gluwebsite.nl"
+              href="https://annexbiosmontfoort.gluwebsite.nl"
               class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
-              >LEIDSCHERIJN</a
+              >MONTFOORT</a
             >
+            <a
+              href="https://annexbiosbilthoven.gluwebsite.nl"
+              class="block px-3 py-1 bg-primary text-white hover:bg-secondary"
+              >BILTHOVEN</a
+            >
+
           </div>
         </div>
         <button>

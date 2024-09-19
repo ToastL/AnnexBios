@@ -10,7 +10,7 @@
         style="background-image: url({header});"
     >
         <div
-            class="min-h-screen flex justify-center bg-gray-100 pt-[10rem] gap-[10rem] py-10 max-[1320px]:flex-wrap max-[1320px]:gap-[5rem] max-[640px]:pt-[2rem]"
+            class="min-h-screen flex justify-center bg-gray-100 gap-[10rem] py-10 max-[1320px]:flex-wrap max-[1320px]:gap-[5rem] max-[640px]:pt-[2rem]"
         >
         
             <div
@@ -18,9 +18,9 @@
             >
                 <div class="bg-gray-200 p-6 rounded-lg">
                     <h2
-                        class="text-2xl font-bold text-center text-gray-800 mb-6"
+                        class="text-2xl font-bold text-gray-800 mb-6"
                     >
-                        Contacteer ons
+                        CONTACT US
                     </h2>
 
                     <div class="space-y-6">
@@ -76,17 +76,22 @@
             >
                 <div class="bg-gray-200 p-6 rounded-lg">
                     <h2
-                        class="text-2xl font-bold text-center gap-2 text-gray-800 mb-6"
+                        class="text-2xl font-bold gap-2 text-gray-800 mb-6 tex font-weight: 700"
                     >
-                        Info
+                        CONTACT
                     </h2>
-                    <li class="text-xl text-center text-gray-800 mb-6">
-                        Telefoon nr. - 030 - 2807099
-                    </li>
-                    <li class="text-xl text-center text-gray-800 mb-6">
+                    <div class="text-xl text-gray-800 mb-6">
+                        <a href="tel:080020555"> +31 6 83705752 </a>.
+                    </div>
+                    <h2
+                    class="text-2xl font-bold gap-2 text-gray-800 mb-6 tex font-weight: 700"
+                >
+                    BASED IN
+                </h2>
+                    <div class="text-xl text-gray-800 mb-6">
                         Hoofdkantoor AnnexBios Koningin Wilhelminalaan 9 3527 LA
                         Utrecht
-                    </li>
+                    </div>
                     <div class="flex justify-center mb-6">
                         <iframe
                             title=""
