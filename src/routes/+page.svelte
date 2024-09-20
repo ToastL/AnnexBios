@@ -27,7 +27,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 w-full gap-9">
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/building_images/leidscherijn.png" alt="Bilthoven" />
+                 src="/images/building_images/leidscherijn.png" alt="Bilthoven" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Leischerijn</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbiosleidscherijn.gluwebsite.nl">
@@ -40,7 +40,7 @@
 
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/building_images/maarssen.png" alt="Breukelen" />
+                 src="/images/building_images/maarssen.png" alt="Breukelen" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Maarssen</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbiosmaarssen.gluwebsite.nl">
@@ -53,7 +53,7 @@
 
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/building_images/woerden.png" alt="Leerdam" />
+                 src="/images/building_images/woerden.png" alt="Leerdam" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Woerden</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbioswoerden2.gluwebsite.nl">
@@ -66,7 +66,7 @@
 
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/building_images/montfoort.png" alt="Maarssen" />
+                 src="/images/building_images/montfoort.png" alt="Maarssen" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Montfoort</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbiosmontfoort.gluwebsite.nl">
@@ -79,7 +79,7 @@
 
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/building_images/bilthoven.png" alt="Montfoort" />
+                 src="/images/building_images/bilthoven.png" alt="Montfoort" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Bilthoven</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbiosbilthoven.gluwebsite.nl">
@@ -129,7 +129,7 @@
                     </div>
                     <img
                         class="w-[10rem] pl-3 pt-[0.7rem]"
-                        src="/src/assets/3star.png"
+                        src="/images/3star.png"
                         alt=""
                     />
                     <div class="text-[1.3rem] text-primary pl-[1rem] pt-2">
@@ -150,7 +150,7 @@
                 class="grid mt-[6rem] gap-5 max-[750px]:flex-wrap max-[750px]:justify-center max-[750px]:items-center"
             >
                 <div class="bg-white">
-                    <img class="w-full" src="/src/assets/place2.png" alt="" />
+                    <img class="w-full" src="/images/place2.png" alt="" />
                     <div class="text-3xl text-primary pl-8 pt-8 font-bold">
                         LOREM IPSUM
                     </div>
@@ -178,7 +178,7 @@
                 </div>
 
                 <div class="bg-white">
-                    <img src="/src/assets/place2.png" alt="" />
+                    <img src="/images/place2.png" alt="" />
                     <div class="text-3xl text-primary pl-8 pt-8 font-bold">
                         LOREM IPSUM
                     </div>
@@ -206,7 +206,7 @@
                 </div>
 
                 <div class="bg-white col-span-2 h-[35rem]">
-                    <img src="/src/assets/place3.png" alt="" />
+                    <img src="/images/place3.png" alt="" />
                     <div class="text-3xl text-primary pl-8 pt-8 font-bold">
                         LOREM IPSUM
                     </div>
