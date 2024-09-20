@@ -4,7 +4,7 @@
             <div class="h-10 w-96">
                 <img
                     class="w-[18rem] h-auto max-[865px]:mt-10 max-[865px]:ml-10"
-                    src="/src/assets/name.png"
+                    src="/images/name.png"
                     alt="test"
                 />
                 <div class="text-white text-lg max-[865px]:ml-10">
@@ -28,23 +28,23 @@
             <div class="flex justify-between items-center mt-4">
                 <img
                     class="w-10 rounded-full"
-                    src="/src/assets/icons/facebook.png"
+                    src="/images/icons/facebook.png"
                     alt="insta"
                 />
                 <img
                     class="w-10 rounded-full"
-                    src="/src/assets/icons/twitter.png"
+                    src="/images/icons/twitter.png"
                     alt="twitter"
                 />
                 <img
                     class="w-10 rounded-full"
-                    src="/src/assets/icons/insta.png"
+                    src="/images/icons/insta.png"
                     alt="insta"
                 />
             </div>
         </div>
     </div>
-    <img class="max-[1440px]:hidden" src="/src/assets/tape.png" alt="tape" />
+    <img class="max-[1440px]:hidden" src="/images/tape.png" alt="tape" />
 </footer>
 <div class="flex h-16 bg-black text-white text-xl max-[865px]:flex max-[865px]:justify-center max-[865px]:items-center">
     <div class="ml-[10rem] mt-4 max-[865px]:ml-0 max-[865px]:mt-0">Voorwaarden</div>
