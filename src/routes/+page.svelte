@@ -27,7 +27,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 w-full gap-9">
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/src/assets/vesteg/leidscherijn.png" alt="Bilthoven" />
+                 src="/building_images/leidscherijn.png" alt="Bilthoven" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Leischerijn</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbiosleidscherijn.gluwebsite.nl">
@@ -40,7 +40,7 @@
 
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/src/assets/vesteg/maarssen.png" alt="Breukelen" />
+                 src="/building_images/maarssen.png" alt="Breukelen" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Maarssen</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbiosmaarssen.gluwebsite.nl">
@@ -53,7 +53,7 @@
 
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/src/assets/vesteg/woerden.png" alt="Leerdam" />
+                 src="/building_images/woerden.png" alt="Leerdam" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Woerden</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbioswoerden2.gluwebsite.nl">
@@ -66,7 +66,7 @@
 
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/src/assets/vesteg/montfoort.png" alt="Maarssen" />
+                 src="/building_images/montfoort.png" alt="Maarssen" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Montfoort</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbiosmontfoort.gluwebsite.nl">
@@ -79,7 +79,7 @@
 
         <div class="h-[23.8rem] w-full bg-white">
             <img class="w-full h-[12rem] object-cover max-[1123px]:h-[14rem] max-[650px]:h-[10rem]" 
-                 src="/src/assets/vesteg/bilthoven.png" alt="Montfoort" />
+                 src="/building_images/bilthoven.png" alt="Montfoort" />
             <div class="text-3xl pl-7 pt-7 text-primary font-bold max-[1300px]:text-2xl max-[1120px]:text-xl">Bilthoven</div>
             <div class="text-xl text-primary pl-7 pt-2 max-[1300px]:text-base max-[1120px]:text-sm">Rijksstraatweg 42, 3223 KA</div>
             <a href="https://annexbiosbilthoven.gluwebsite.nl">
